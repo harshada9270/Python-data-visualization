@@ -6,7 +6,7 @@ from scipy.stats import pearsonr
 from pandas import read_csv
 from sklearn.linear_model import LinearRegression
 
-df = pd.read_csv("C:/Users/Harshada/Downloads/swiggy.csv")
+df = pd.read_csv("C:/Users/Harshada/Downloads/swiggy.csv") #enter your file path
 
 #last 10 entries
 last_x_rows = df.tail(10)
